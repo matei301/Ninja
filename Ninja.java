@@ -28,9 +28,10 @@ public class Test extends JavaPlugin {
 		
 		if (cmd.getName().equalsIgnoreCase("test")) {
 			player.sendMessage(ChatColor.GOLD + "You ran the test command! Good job!");
+		} else if (cmd.getName().equalsIgnoreCase("TUMBABIT")) {
+			player.sendMessage(ChatColor.GOLD + "WAS HERE!!!");
 		}
 		return true;
 	}
 }
  // this is to test
-//dunno what to do
