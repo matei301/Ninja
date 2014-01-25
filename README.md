@@ -1,0 +1,4 @@
+Ninja
+=====
+
+Ninja Plugin
