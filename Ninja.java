@@ -29,7 +29,7 @@ public class Test extends JavaPlugin {
 		if (cmd.getName().equalsIgnoreCase("test")) {
 			player.sendMessage(ChatColor.GOLD + "You ran the test command! Good job!");
 		} else if (cmd.getName().equalsIgnoreCase("TUMBABIT")) {
-			player.sendMessage(ChatColor.GOLD + "WAS HERE!!!");
+			player.sendMessage(ChatColor.GOLD + "IS COOL!!!");
 		}
 		return true;
 	}
