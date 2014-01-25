@@ -7,14 +7,14 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Test extends JavaPlugin {
+public class Ninja extends JavaPlugin {
 
 	public void onEnable() {
-		Bukkit.getServer().getLogger().info("Test Plugin Enabled!");
+		Bukkit.getServer().getLogger().info("Ninja Plugin Enabled!");
 	}
 	
 	public void onDisable() {
-		Bukkit.getServer().getLogger().info("Test Plugin Disabled!");
+		Bukkit.getServer().getLogger().info("Ninja Plugin Disabled!");
 	}
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
@@ -34,5 +34,5 @@ public class Test extends JavaPlugin {
 		return true;
 	}
 }
- // this is to test
+
 
